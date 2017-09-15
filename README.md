@@ -1,6 +1,6 @@
 # docker-tomcat8-snapshot
-docker-compose.yml
-'''
+#docker-compose.yml
+```
 version: '2'
 services:
   tomcatSnapshot:
@@ -22,4 +22,4 @@ services:
     restart: always
     environment:
        CATALINA_OPTS: "$CATALINA_OPTS   -Dfile.encoding=UTF-8 -Djavax.servlet.request.encoding=UTF-8"
-'''
+```
